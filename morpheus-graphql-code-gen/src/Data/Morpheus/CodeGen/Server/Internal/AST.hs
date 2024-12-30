@@ -39,7 +39,8 @@ import Data.Morpheus.CodeGen.Printer
     (.<>),
   )
 import Data.Morpheus.CodeGen.TH (PrintDec (..), PrintExp (..), ToName (..), apply, m', m_, printTypeSynonym)
-import Data.Morpheus.Server.Types (DIRECTIVE, SCALAR, TYPE, TypeGuard, enumDirective, fieldDirective, typeDirective)
+import Data.Morpheus.Server.Types (TypeGuard, enumDirective, fieldDirective, typeDirective)
+import Data.Morpheus.Server.Types.Kind (DIRECTIVE, SCALAR, TYPE)
 import Data.Morpheus.Types.Internal.AST
   ( CONST,
     DirectiveLocation (..),
